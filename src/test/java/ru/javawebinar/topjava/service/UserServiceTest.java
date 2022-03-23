@@ -27,7 +27,7 @@ import static ru.javawebinar.topjava.UserTestData.*;
 public class UserServiceTest {
 
     @Autowired
-    private static UserService service;
+    private UserService service;
 
     @Test
     public void create() {
@@ -59,7 +59,7 @@ public class UserServiceTest {
     @Test
     public void get() {
         User user = service.get(USER_ID);
-        USER_MATCHER.assertMatch(user, UserTestData.user);
+        USER_MATCHER.assertMatch(UserTestData.user, user);
     }
 
     @Test
