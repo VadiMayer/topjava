@@ -90,7 +90,7 @@
                     <configuration>
                         <configfiles>
                             <configfile>
-                                <file>src/main/resources/tomcat/context.xml</file>
+                                <file>src/main/resources/tomcat/contёext.xml</file>
                                 <todir>conf/Catalina/localhost/</todir>
                                 <tofile>${project.build.finalName}.xml</tofile>
                             </configfile>
