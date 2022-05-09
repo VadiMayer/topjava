@@ -3,6 +3,8 @@ DROP TABLE IF EXISTS meals;
 DROP TABLE IF EXISTS users;
 DROP SEQUENCE IF EXISTS global_seq;
 
+SET search_path TO myschema,schema_name;
+
 CREATE SEQUENCE global_seq START WITH 100000;
 
 CREATE TABLE users
