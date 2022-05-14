@@ -1,7 +1,7 @@
-DROP TABLE IF EXISTS user_roles;
-DROP TABLE IF EXISTS meals;
-DROP TABLE IF EXISTS users;
-DROP SEQUENCE IF EXISTS global_seq;
+DROP TABLE IF EXISTS schema_name.user_roles;
+DROP TABLE IF EXISTS schema_name.meals;
+DROP TABLE IF EXISTS schema_name.users;
+DROP SEQUENCE IF EXISTS schema_name.global_seq;
 
 SET search_path TO myschema,schema_name;
 
